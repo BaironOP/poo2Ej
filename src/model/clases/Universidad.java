@@ -5,10 +5,22 @@
  */
 package model.clases;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Usuario
  */
 public class Universidad {
+    
+    private ArrayList<Profesor> profesores;
+    private ArrayList<Estudiante> estudiantes;
+
+    public Universidad() {
+        profesores = new ArrayList<>();
+        estudiantes = new ArrayList<>();
+    }
+    
+    
     
 }
